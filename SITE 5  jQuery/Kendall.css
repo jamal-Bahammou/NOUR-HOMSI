@@ -1,0 +1,33 @@
+/*body {
+    background-image: url(img/background-pattern.jpg);
+    color: black;
+    font-size: 90%;
+    font-family: Arial, 'Lucida Sans Unicode';
+    line-height: 1.5;
+    text-align: left;
+}
+.body {
+    margin: 10px auto;
+    width: 70%;
+    clear: both;
+}*/
+img {
+    float: left;
+    margin: 12.1px;
+    border-radius: 5px;
+    -webki-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+.par {
+    background-color: white;
+    border-radius: 5px;
+    -webki-border-radius: 5px;
+    -moz-border-radius: 5px;
+    color: #2C3A47;
+    display: block;
+}
+p {
+    padding: 15px;
+    line-height: 1.6;
+}

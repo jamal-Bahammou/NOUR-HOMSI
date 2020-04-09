@@ -1,0 +1,102 @@
+/*  TITLE DECORATION:  */
+h1 {
+    text-align: center;
+    padding: 16px;
+}
+
+/*    CLOSE MENU:    */
+.menu {
+    position: relative;
+    float: left;
+    /**/left: -260px;
+    width: 260px;
+    background-color: #ff0055;
+    color: white;
+    height: 100vh;
+    z-index: 999;
+    transition: all 1s;
+}
+
+/*    OPEN MENU:    */
+.menu-open {
+    left: 0px;
+    background-color: #34495e;
+}
+
+/*    CLOSE BOTON:    */
+.close-btn {
+    display: block;
+    height: 40px;
+    font-size: 30px;
+    float: right;
+    padding: 10px;
+    background-color: #ff0055;
+    cursor: pointer;
+    position: absolute;
+    left: 260px;
+    transition: all 1s;
+}
+
+/*    OPEN BOTON:    */
+.open-btn {
+    background-color: #34495e;
+}
+
+/*    FATHER MENU:    */
+#father > li {
+    list-style-type: none;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    border-bottom: 1px solid darkgray;
+}
+li:hover {
+    background-color: darkgray;
+    color: black;
+}
+
+/*    SON MENU:    */
+#son {
+    /**/display: none;
+    width: 100% !important;
+}
+#son > li {
+    background-color: #535c68;
+    color: white;
+}
+#son > li:hover {
+    background-color: darkgray;
+    color: black;
+}
+
+/*  OPEN PAGE CONTENT:  */
+.content {
+    position: relative;
+    background-color: #eee;
+    height: 60px;
+    box-sizing: border-box;
+}
+.image {
+    position: relative;
+    height: 360px;
+    background-image: url("img/kendall-jenner.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/*  CLOSE PAGE CONTENT:  */
+.content {
+    width: 100vw;
+    left: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+

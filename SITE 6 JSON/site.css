@@ -1,0 +1,47 @@
+body {
+    background: url(img/background-pattern.jpg);
+}
+#info {
+    background-color: white;
+    padding: 10px 15px 1px 15px;
+    border-radius: 5px;
+    -webki-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+#container {
+    width: 70%;
+    margin: 0 auto;
+    text-align: left;
+    font-family: arial;
+}
+#text {
+    font-size: 38px;
+    color: #ff0055;
+}
+#zar {
+    padding: 10px 25px;
+    font-size: 24px;
+    background-color: crimson;
+    color: white;
+    cursor: pointer;
+    border: none;
+    float: right;
+    position: absolute;
+    top: 22px;
+    left: 58%;
+}
+#zar:hover {
+    color: white;
+}
+#zar:active {
+    box-shadow: 0 0px #666;
+    transform: translateY(4px);
+}
+
+.hide {
+    cursor: not-allowed;
+    pointer-events: none;
+}
+.orange { color: orangered; }
+.red { color: red; } 
+.green { color: green; }

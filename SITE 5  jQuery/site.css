@@ -1,0 +1,80 @@
+.blog {
+    width: 60%;
+    margin: 50px auto;
+    color: #7E7E80;
+    line-height: 1.8;
+    text-align: center;
+}
+.blog h1 {
+    font-size: 48px;
+}
+/*----------------------------------------------------*/
+.box {
+    width: 100%;
+    margin: 50px auto;
+    padding: 15px;
+    border: 3px solid purple;
+    position: relative;
+}
+.box-close {
+    color: white;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: black;
+}
+.box-close:hover {
+    background-color: bisque;
+    color: purple;
+    box-shadow: inset 0px 0px 0px 2px purple;
+    cursor: pointer;
+}
+/*----------------------------------------------------*/
+.faq {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 50px;
+    background-color: antiquewhite;
+    border: 1px dotted purple;
+}
+.pointer {
+    color: blue;
+    cursor: pointer;
+}    
+.more {
+    background-image: url(img/background-pattern.jpg);
+    width: 100%;
+    border: 5px black solid;
+    border-radius: 5px;
+    -webki-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+/*----------------------------------------------------*/
+.more-items {
+    width: 550px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1.8;
+    font-size: 18px;
+}
+.icon {
+    float: left;
+}
+.img {
+    float: left;
+    padding-right: 20px;
+}
+
+    
+    
+    
+    
+    
+    
+    
+    
+    

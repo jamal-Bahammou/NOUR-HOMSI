@@ -1,0 +1,196 @@
+body {
+    background-image: url(IMAGE/background-pattern.jpg);
+    color: black;
+    font-size: 90%;
+    /* Base front-size = 14px */
+    font-family: Arial, 'Lucida Sans Unicode';
+    line-height: 1.5;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link,
+a:visited {
+    color: crimson;
+}
+
+a:hover,
+a:active {
+    color: #8e44ad;
+}
+
+.body {
+    margin: 10px auto;
+    width: 70%;
+    clear: both;
+}
+
+/*********************** HEADER CONTENT *************************/
+
+.mainHeader img {
+    width: 100%;
+    border-radius: 5px;
+    -webki-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+.mainHeader nav {
+    background-color: #34495e;
+    height: 40px;
+    border-radius: 5px;
+    -webki-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+.mainHeader nav ul {
+    text-align: center;
+    list-style: none;
+    margin: 0 auto;
+}
+
+.mainHeader nav ul li {
+    display: inline;
+}
+
+.mainHeader a:link,
+.mainHeader a:visited {
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+    height: 20px;
+}
+
+.mainHeader a:hover,
+.mainHeader a:active {
+    color: #f39c12;
+    background-color: #7f8c8d;
+}
+
+/*********************** MAIN CONTENT **************************/
+
+.mainContent {
+    width: 70%;
+    float: left;
+}
+
+.top-content {
+    background-color: #fff;
+    padding: 3%;
+    margin-top: 3%;
+    border-radius: 5px;
+    -webki-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+.post-info {
+    font-size: 90%;
+    color: #999;
+    font-style: italic;
+    margin-top: -25px;
+}
+
+.post-content {
+    color: #2C3A47;
+    display: block;
+}
+
+audio {
+    width: 100%;
+}
+
+/*********************** SIDE CONTENT **************************/
+
+.theSideBar {
+    width: 24%;
+    margin: 2% 0 0 2%;
+    float: left;
+    padding: 2%;
+    background-color: white;
+    border-radius: 5px;
+    -webki-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+/*********************** FOOTER CONTENT **************************/
+
+.footer {
+    margin: 20px 0 5px 0;
+    float: left;
+    width: 100%;
+    background-color: #34495e;
+    height: 60px;
+    border-radius: 5px;
+    -webki-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+.footer p {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+/********************************* HTML5 ***********************************/
+
+.post-img {
+    width: 100%;
+}
+
+figure {
+    margin: 25px 0;
+    font-size: 80%;
+    color: #999;
+}
+
+.selena {
+    width: 100%;
+}
+
+/******************************* CS3 MOBILE *********************************/
+
+@media screen and (max-width: 768px) {
+    .body {
+        width: 90%;
+        font-size: 95%;
+    }
+
+    /* ----------- HEADER CONTENT/* ----------- */
+    .mainHeader nav {
+        height: 160px;
+    }
+
+    .mainHeader nav ul {
+        width: 100%;
+        padding: 0;
+    }
+
+    .mainHeader a:link,
+    .mainHeader a:visited {
+        display: block;
+    }
+
+    /* ----------- MAIN CONTENT/* ----------- */
+    .mainContent {
+        width: 100%;
+
+    }
+
+    .theSideBar {
+        width: 100%;
+        margin: 2% 0 0 0;
+        padding: 0;
+    }
+
+    iframe {
+        height: 354px;
+    }
+
+}
+
+/******************************* CS3 MOBILE *********************************/
+
+@media screen and (max-width: 992px) {}

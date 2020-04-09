@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Jamal Bahammou">
+    <meta name="description" content="Learn web design">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SITE WEB 01</title>
+
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+
+<body class="body">
+    <div id="container">
+
+        <!-- Main Menu -->
+        <nav id="menu">
+            <h1 id="logo">Jamal Bahammou</h1>
+            <ul class="menu-all">
+                <li class="menu-item"><a href="#Home">Home</a></li>
+                <li class="menu-item"><a href="#About">About</a></li>
+                <li class="menu-item"><a href="#Tutorials">Tutorials</a></li>
+                <li class="menu-item"><a href="#YouTube">YouTube</a></li>
+                <li class="menu-item"><a href="#Contact">Contact</a></li>
+
+            </ul>
+        </nav>
+
+        <!-- Hero Image -->
+        <div id="hero">
+        </div>
+
+        <!-- About -->
+        <section id="about">
+            <h1>What do you want to learn ?</h1>
+            <div>
+                <p class="about-p">“There is no end to education. It is not that you read a book, pass an examination, and finish with education. The whole of life, from the moment you are born to the moment you die, is a process of learning.” -Jiddu Krishnamurti</p>
+            </div>
+            <button class="cta">Click Her</button>
+        </section>
+
+        <!-- Tutorials -->
+        <section id="tutorials">
+            <h1>Web Design Tutorials:</h1>
+            <div class="row">
+
+                <div class="col-3  col-html">
+                    <header class="tut-header">HTML</header>
+                    <img src="img/HTML5_logo.jpg" alt="learn html">
+                    <footer class="tut-footer">
+                        <p>A programming language is a vocabulary and set of grammatical rules for instructing a computer or computing device to perform specific tasks. The term programming language usually refers to high-level languages, such as BASIC, C, C++, COBOL, Java, FORTRAN, Ada, and Pascal.</p>
+                    </footer>
+                </div>
+
+                <div class="col-3 col-css">
+                    <header class="tut-header">CSS</header>
+                    <img src="img/CSS3_logo.jpg" alt="learn css">
+                    <footer class="tut-footer">
+                        <p>A programming language is a vocabulary and set of grammatical rules for instructing a computer or computing device to perform specific tasks. The term programming language usually refers to high-level languages, such as BASIC, C, C++, COBOL, Java, FORTRAN, Ada, and Pascal.</p>
+                    </footer>
+                </div>
+
+                <div class="col-3 col-js">
+                    <header class="tut-header">JavaScipt</header>
+                    <img src="img/JavaScript_logo.jpg" alt="learn js">
+                    <footer class="tut-footer">
+                        <p>A programming language is a vocabulary and set of grammatical rules for instructing a computer or computing device to perform specific tasks. The term programming language usually refers to high-level languages, such as BASIC, C, C++, COBOL, Java, FORTRAN, Ada, and Pascal.</p>
+                    </footer>
+                </div>
+
+            </div>
+            <button class="cta tuts">Click Her</button>
+        </section>
+
+        <!-- YouTube -->
+        <section id="youtube">
+            <h1>Start with this ?</h1>
+            <div class="row videoframe">
+                <iframe src="https://www.youtube.com/embed/cH4E_t3m3xM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact">
+            <h1>Are you interested in communicating with me?</h1>
+            <div class="row">
+                <div class="col-2">
+                    <form action="#" method="post">
+                        <input id="name" class="input" name="name" type="text" value="Name" size="30"><br>
+                        <input id="email" class="input" name="email" type="text" value="Email" size="30"><br>
+                        <input id="website" class="input" name="website" type="text" value="WebSite" size="30"><br>
+                        <textarea id="message" class="input" name="message" rows="8" cols="31"></textarea><br> <input id="submit" class="cta" type="submit" value="Send">
+                    </form>
+                </div>
+                <div class="col-2 map">
+                    <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
+                    <div style='overflow:hidden;height:400px;width:100%;'>
+                        <div id='gmap_canvas' style='height:400px;width:100%;'></div>
+                        <div><small><a href="https://embedgooglemaps.com/de/">embedgooglemaps DE</a></small></div>
+                        <div><small><a href="http://www.kumo-racing.nl/">newyorkpass.nl</a></small></div>
+                        <style>
+                            #gmap_canvas img {
+                                max-width: none !important;
+                                background: none !important
+                            }
+                        </style>
+                    </div>
+                    <script type='text/javascript'>
+                        function init_map() {
+                            var myOptions = {
+                                zoom: 10,
+                                center: new google.maps.LatLng(35.10544510903207, -2.9239411601577103),
+                                mapTypeId: google.maps.MapTypeId.ROADMAP
+                            };
+                            map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
+                            marker = new google.maps.Marker({
+                                map: map,
+                                position: new google.maps.LatLng(35.10544510903207, -2.9239411601577103)
+                            });
+                            infowindow = new google.maps.InfoWindow({
+                                content: '<strong>My Business</strong><br>Nador<br>'
+                            });
+                            google.maps.event.addListener(marker, 'click', function() {
+                                infowindow.open(map, marker);
+                            });
+                            infowindow.open(map, marker);
+                        }
+                        google.maps.event.addDomListener(window, 'load', init_map);
+                    </script>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <section id="wsfooter">
+            <p>All Rights Reserved for the owner of the site</p>
+            <p>Tel: 0654580687 | Fax: 0552458726 | Email: <a href="mailto:jamalbahammou456@gmail.com">jamalbahammou456@gmail.com</a></p>
+        </section>
+
+
+    </div>
+
+
+
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
